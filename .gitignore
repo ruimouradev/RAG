@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# uv cache
+.cache/
+
+# HuggingFace model cache
+.cache/huggingface/
+
+# Data — raw repo, processed index, outputs, cache
+data/raw/
+data/processed/*
+data/output/*
+data/datasets/*
+!data/processed/.gitkeep
+!data/output/.gitkeep
+!data/datasets/.gitkeep
